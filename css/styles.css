@@ -27,7 +27,7 @@ body{
   background-color: var(--color-background);
   color: #fff;
   max-width: 60vw;
-  max-height: 100svh;
+  max-height: 100dvh;
   margin: auto;
 }
 
