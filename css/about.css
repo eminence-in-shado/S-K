@@ -1,0 +1,60 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+:root{
+  --font-family1: 'Barlow Condensed', sans-serif;
+  --font-family2: 'Montserrat', sans-serif;
+  --font-family3: 'Poppins', sans-serif;
+  --font-family4: 'Roboto', sans-serif;
+  --color-background: #000000;
+  --color-foreground: #e7e5b0;
+  --color-fg1: #959ae8;
+  --color-btn1: #f6bcaf;
+  --color-btn2: #eb937f;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset some default styles */
+body{
+  background-color: var(--color-background);
+  color: #fff;
+  max-width: 60vw;
+  max-height: 100svh;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+nav a{
+  font-size: 1.4rem;
+}
+
+a{
+  list-style: none;
+  color: var(--color-btn2);
+}
+
+.title{
+  font-family: var(--font-family3);
+  font-size: 3rem;
+  text-align: center;
+  margin: -1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.content-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
