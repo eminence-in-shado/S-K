@@ -62,7 +62,7 @@ section{
 
 p{
   font-family: var(--font-family4);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .cnt{
@@ -75,6 +75,7 @@ p{
 footer{
   text-align: center;
   margin: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 @media only screen and (max-width: 812px)
